@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Email</title>
+</head>
+<body>
+    {% if user %}
+    <h1>Welcome to Our Platform, {{ user.email }}!</h1>
+    <p>Thank you for joining us. We are excited to have you on board!</p>
+    {% endif %}
+</body>
+</html>
